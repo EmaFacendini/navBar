@@ -14,7 +14,7 @@ function classNames(...classes) {
 
 export default function Example() {
   return (
-    <Disclosure as="nav" className="bg-white-800 shadow-lg">
+    <Disclosure as="nav" className="bg-white-800 rounded-lg shadow-lg">
       {({ open }) => (
         <>
           <div className="mx-auto max-w-7xl px-2 sm:px-6 lg:px-8">
@@ -73,7 +73,7 @@ export default function Example() {
                 {/* Profile dropdown */}
                 <Menu as="div" className="relative ml-3">
                   <div>
-                    <Menu.Button className="relative flex rounded-full bg-gray-800 text-sm focus:outline-none focus:ring-2 focus:ring-white focus:ring-offset-2 focus:ring-offset-gray-800">
+                    <Menu.Button className="relative flex rounded-full bg-gray-800 text-sm focus:outline-none focus:ring-2 focus:ring-white focus:ring-offset-2 focus:ring-offset-orange-800">
                       <span className="absolute -inset-1.5" />
                       <span className="sr-only">Open user menu</span>
                       <img
@@ -98,8 +98,8 @@ export default function Example() {
                           <a
                             href="#"
                             className={classNames(
-                              active ? 'bg-gray-100' : '',
-                              'block px-4 py-2 text-sm text-gray-700'
+                              active ? 'bg-oreange-300' : '',
+                              'block px-4 py-2 text-sm text-orange-700'
                             )}
                           >
                             Your Profile
@@ -112,7 +112,7 @@ export default function Example() {
                             href="#"
                             className={classNames(
                               active ? 'bg-gray-100' : '',
-                              'block px-4 py-2 text-sm text-gray-700'
+                              'block px-4 py-2 text-sm text-orange-700'
                             )}
                           >
                             Settings
@@ -124,8 +124,8 @@ export default function Example() {
                           <a
                             href="#"
                             className={classNames(
-                              active ? 'bg-gray-100' : '',
-                              'block px-4 py-2 text-sm text-gray-700'
+                              active ? 'bg-orange-300' : '',
+                              'block px-4 py-2 bg-orange-300 rounded-lg mx-1 text-sm  text-orange-700'
                             )}
                           >
                             Sign out
