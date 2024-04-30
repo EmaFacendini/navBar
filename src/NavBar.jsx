@@ -16,7 +16,7 @@ function Navbar() {
             </nav>
             <div className='flex mt-4 md:mt-0'>
                 
-                <img alt='icon' src={profile} />
+                {/*<img alt='icon' src={profile}*/ }
             </div>
         </div>
     );
