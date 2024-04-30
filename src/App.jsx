@@ -1,14 +1,14 @@
 import react from 'react';
 
-import HeroSee from './HeroSee/HeroSee';
+import Hero from './HeroSee/Hero';
 import Navbar from './NavBar';
 import Cards from './Crads/Cards';
 
 function App() {
   return (
-    <div className='flex flex-col w-full'>
+    <div className='flex flex-col w-full '>
       <Navbar/>
-      <HeroSee/>
+      <Hero/>
       <Cards/>
     </div>
   );
