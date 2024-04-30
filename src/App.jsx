@@ -1,11 +1,12 @@
 import react from 'react';
-import Example from '/src/SideBar';
+
 import HeroSee from './HeroSee/HeroSee';
+import Navbar from './NavBar';
 
 function App() {
   return (
     <div >
-      <Example />
+      <Navbar/>
       <HeroSee/>
     </div>
   );
